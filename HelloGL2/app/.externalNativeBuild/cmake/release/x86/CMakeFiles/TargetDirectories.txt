@@ -1,0 +1,3 @@
+C:/AndroidStudioProjects/HelloGL2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/gl2jni.dir
+C:/AndroidStudioProjects/HelloGL2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+C:/AndroidStudioProjects/HelloGL2/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir

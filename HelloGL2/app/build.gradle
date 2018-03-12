@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    defaultConfig {
+        applicationId 'com.android.gl2jni'
+        minSdkVersion 14
+        targetSdkVersion 25
+        externalNativeBuild {
+            cmake {
+                // Available argumetns are inside ${SDK}/cmake/.../android.toolchain.cmake file
+                arguments '-DANDROID_STL=c++_static'
+            }
+        }
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'),
+                    'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path 'src/main/cpp/CMakeLists.txt'
+        }
+    }
+}
+dependencies {
+    implementation 'com.android.support:support-v4:25.+'
+    implementation 'com.android.support:support-vector-drawable:25.+'
+    implementation 'com.android.support:appcompat-v7:25.4.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:design:25.4.0'
+}
+
+
+

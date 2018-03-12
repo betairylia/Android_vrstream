@@ -1,0 +1,5 @@
+# ninja log v5
+1	470	0	CMakeFiles/gl2jni.dir/SocketClient.cpp.o	ae000ad3f198cea7
+4	474	0	CMakeFiles/gl2jni.dir/SocketThread.cpp.o	3b452b00f067351b
+6	551	0	CMakeFiles/gl2jni.dir/gl_code.cpp.o	7ce556a0e36d51ab
+552	823	0	C:/AndroidStudioProjects/HelloGL2/app/build/intermediates/cmake/debug/obj/x86/libgl2jni.so	ac21b5f920c0d7f3
